@@ -1,0 +1,5 @@
+
+enum RequestStatus {
+  sent,
+  friends,
+}
