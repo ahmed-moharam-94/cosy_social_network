@@ -37,23 +37,23 @@ like posts, send friend requests and chat with other users.
 ```
 
 
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/auth_1.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/auth_2.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/auth_3.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/home_screen.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/loading_shimmer.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/comments.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/create_post_1.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/create_post_2.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/user_posts.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/your_favorites.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/user_profile_1.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/user_profile_2.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/chat_1.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/chat_2.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/requests.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/notification_1.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/notification_2.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/setting.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/update_user_profile_1.jpg" width="150" height="300"> |
-<img src="https://github.com/ahmed-moharam-94/fcosy_social_network/blob/master/media/update_user_profile_2.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cozy_social_network/blob/master/media/auth_1.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/auth_2.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/auth_3.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/home_screen.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/loading_shimmer.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/comments.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/create_post_1.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/create_post_2.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/user_posts.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/your_favorites.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/user_profile_1.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/user_profile_2.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/chat_1.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/chat_2.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/requests.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/notification_1.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/notification_2.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/setting.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/update_user_profile_1.jpg" width="150" height="300"> |
+<img src="https://github.com/ahmed-moharam-94/cosy_social_network/blob/master/media/update_user_profile_2.jpg" width="150" height="300"> |
