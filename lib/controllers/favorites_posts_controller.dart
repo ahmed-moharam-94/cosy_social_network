@@ -31,7 +31,7 @@ class FavoritePostsController with ChangeNotifier {
       notifyListeners();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error from favoritePost');
       }
     }
   }
@@ -46,7 +46,7 @@ class FavoritePostsController with ChangeNotifier {
       notifyListeners();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error unFavoritePost');
       }
     }
   }
@@ -70,7 +70,7 @@ class FavoritePostsController with ChangeNotifier {
       }
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getUserFavoritePosts');
       }
     }
   }
@@ -80,7 +80,7 @@ Future<int> getNumberOfFavorites(String postId) async {
     return await favoritePostsWebServices.getNumberOfFavorites(postId);
   } catch (error) {
     if (kDebugMode) {
-      print(error);
+      print('$error getNumberOfFavorites');
     }
     return 0;
   }

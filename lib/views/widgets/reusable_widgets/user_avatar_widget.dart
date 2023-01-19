@@ -2,6 +2,8 @@ import 'package:cozy_social_media_app/models/post.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
+import '../post_widgets/image_detail_widget.dart';
+
 class UserAvatarWidget extends StatelessWidget {
   final String userImage;
   final String userGender;

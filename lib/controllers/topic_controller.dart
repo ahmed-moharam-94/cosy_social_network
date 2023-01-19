@@ -30,7 +30,7 @@ class TopicsController with ChangeNotifier {
 
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getTopics');
       }
     }
   }

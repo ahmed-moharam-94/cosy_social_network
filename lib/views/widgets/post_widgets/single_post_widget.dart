@@ -21,7 +21,6 @@ class SinglePostWidget extends StatefulWidget {
   final Post post;
   final bool
       fromComment; // if we are from comment screen don't open comment screen if we press again on the widget
-
   const SinglePostWidget(
       {Key? key, required this.post, this.fromComment = false})
       : super(key: key);
@@ -105,15 +104,12 @@ class _SinglePostWidgetState extends State<SinglePostWidget> {
     setIsLoadingValue(false);
   }
 
-  void navigateToUserProfileScreen() {
+  void navigateToPostUserProfileScreen() {
     // navigate to user profile if it is not my post
     if (!isMyPost) {
       String userId = widget.post.userId;
       Navigator.of(context)
-          .pushNamed(UserProfileScreen.routeName, arguments: userId)
-          .then((value) async {
-           await getPosts();
-      });
+          .pushNamed(UserProfileScreen.routeName, arguments: userId);
     }
   }
 
@@ -165,7 +161,7 @@ class _SinglePostWidgetState extends State<SinglePostWidget> {
     return Column(
       children: [
         GestureDetector(
-          onTap: navigateToUserProfileScreen,
+          onTap: navigateToPostUserProfileScreen,
           child: UserAvatarWidget(
               userImage: user.image, userGender: user.gender, radius: 70),
         ),

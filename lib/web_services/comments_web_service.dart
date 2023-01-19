@@ -94,8 +94,8 @@ class CommentsWebServices {
     int numberOfComments = 0;
     try {
       var post =  await firestore.collection('posts').doc(postId).get();
-      if (post.data() != null) {
-        List comments = post.data()!['comments'];
+      if (post.data() != null && post.data()!['comments'] != null) {
+        var comments = post.data()!['comments'];
         numberOfComments = comments.length;
       }
     } catch (error) {

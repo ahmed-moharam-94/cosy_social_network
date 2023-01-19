@@ -69,9 +69,11 @@ class _SendRequestButtonWidgetState extends State<SendRequestButtonWidget> {
     // check if they are friends
     if (sentBefore) {
       bool friends = await areFriends(senderId, receiverId);
-      setState(() {
+      if (mounted) {
+        setState(() {
         alreadyFriends = friends;
       });
+      }
     }
     setLoadingValue(false);
   }

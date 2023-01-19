@@ -43,7 +43,7 @@ class UserController with ChangeNotifier {
       notifyListeners();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getCurrentUserData');
       }
     }
   }
@@ -69,7 +69,7 @@ class UserController with ChangeNotifier {
       resetImageFileToNull();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error sendUserData');
       }
     }
   }
@@ -84,7 +84,7 @@ class UserController with ChangeNotifier {
       return user;
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getUserById');
       }
     }
     return currentUser;

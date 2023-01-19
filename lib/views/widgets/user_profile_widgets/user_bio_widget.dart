@@ -31,6 +31,7 @@ class _UserBioAndSendRequestWidgetState
 
   Future<void> getUserPostsNumber() async {
     setIsLoading(true);
+    // print(widget.profileUser.id);
     numberOfPosts = await Provider.of<PostController>(context, listen: false)
         .getUserPostsNumber(widget.profileUser.id);
     setIsLoading(false);

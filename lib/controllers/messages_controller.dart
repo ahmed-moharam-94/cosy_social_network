@@ -20,7 +20,7 @@ class MessagesController with ChangeNotifier {
       await messagesWebService.addMessagesToChat(message.chatId, message.id);
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error sendTextMessage');
       }
     }
   }
@@ -32,7 +32,7 @@ class MessagesController with ChangeNotifier {
       await messagesWebService.addMessagesToChat(message.chatId, message.id);
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error sendImageMessage');
       }
     }
   }
@@ -43,7 +43,7 @@ class MessagesController with ChangeNotifier {
       messagesStream =  messagesWebService.getMessagesStream();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getMessagesStream');
       }
     }
     return messagesStream;
@@ -71,7 +71,7 @@ class MessagesController with ChangeNotifier {
       return lastMessageInfo;
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getLastMessageInfo');
       }
       return {};
     }

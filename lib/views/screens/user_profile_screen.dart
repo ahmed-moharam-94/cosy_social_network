@@ -1,5 +1,6 @@
 import 'package:cozy_social_media_app/controllers/user_controller.dart';
 import 'package:cozy_social_media_app/models/user.dart';
+import 'package:cozy_social_media_app/views/widgets/post_widgets/post_loading_indicator_widget.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -8,6 +9,7 @@ import '../../controllers/post_controller.dart';
 import '../widgets/post_widgets/posts_list_widget.dart';
 import '../widgets/user_profile_widgets/profile_header_widget.dart';
 import '../widgets/user_profile_widgets/user_bio_widget.dart';
+import '../widgets/user_profile_widgets/user_profile_loading_widget.dart';
 
 class UserProfileScreen extends StatefulWidget {
   static const routeName = 'UserProfileScreen';
@@ -21,6 +23,7 @@ class UserProfileScreen extends StatefulWidget {
 class _UserProfileScreenState extends State<UserProfileScreen> {
   AppUser profileUser = AppUser();
   bool isLoading = false;
+  bool firstBuild = true;
 
   void setIsLoading(bool value) {
     setState(() {
@@ -33,22 +36,32 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
         .getUserById(userId);
   }
 
-  Future<void> getMyPosts(String userId) async {
+  Future<void> getUserPosts(String userId) async {
     await Provider.of<PostController>(context, listen: false)
         .getSpecificUserPosts(userId: userId);
+  }
+
+  Future<void> getProfileData(String userId) async {
+    setIsLoading(true);
+    await getUserById(userId);
+    await getUserPosts(userId);
+    setIsLoading(false);
   }
 
 
   @override
   void didChangeDependencies() {
-    var userData = ModalRoute.of(context)!.settings.arguments;
-    if (userData != null) {
-      setIsLoading(true);
-      String userId = userData as String;
-      getUserById(userId);
-      getMyPosts(userId);
-      setIsLoading(false);
+    if (firstBuild) {
+      var userData = ModalRoute
+          .of(context)!
+          .settings
+          .arguments;
+      if (userData != null) {
+        String userId = userData as String;
+        getProfileData(userId);
+      }
     }
+    firstBuild = false;
     super.didChangeDependencies();
   }
 
@@ -58,14 +71,7 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
 
     return Scaffold(
       backgroundColor: Theme.of(context).backgroundColor,
-      body: WillPopScope(
-        onWillPop: () async {
-          setIsLoading(true);
-          await Provider.of<PostController>(context, listen: false).getAllPosts();
-          setIsLoading(false);
-          return true;
-        },
-        child: CustomScrollView(
+        body: CustomScrollView(
           physics: const BouncingScrollPhysics(),
           slivers: [
             if (isLoading) loadingIndicatorWidgetBuilder(),
@@ -77,17 +83,11 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
             if (!isLoading) PostsListWidget(posts: _posts),
           ],
         ),
-      ),
     );
   }
 
   Widget loadingIndicatorWidgetBuilder() {
-    return SliverToBoxAdapter(
-        child: Column(
-      children: const [
-        SizedBox(height: hugePadding),
-        CircularProgressIndicator(),
-      ],
-    ));
+    return const SliverToBoxAdapter(
+        child: LoadingProfileWidget());
   }
 }

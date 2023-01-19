@@ -94,7 +94,7 @@ class _PostsListWidgetState extends State<PostsListWidget> {
           final Post _post = posts[index];
           return Column(
             children: [
-              SinglePostWidget(post: _post),
+              SinglePostWidget(key: ValueKey(_post.postId), post: _post),
               // add padding at the last index
               if (index == posts.length - 1) bottomPaddingWidget(),
             ],

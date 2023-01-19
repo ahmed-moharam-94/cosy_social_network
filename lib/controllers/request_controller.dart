@@ -23,7 +23,7 @@ class RequestController with ChangeNotifier {
           receiverId: request.receiverId, requestId: request.requestId);
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error sendRequest');
       }
     }
   }
@@ -45,7 +45,7 @@ class RequestController with ChangeNotifier {
       }
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getReceivedRequests');
       }
     }
   }
@@ -58,7 +58,7 @@ class RequestController with ChangeNotifier {
           currentUser: senderId, otherUser: receiverId);
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error wasRequestSentToThisUserBefore');
       }
     }
     return wasSent;
@@ -72,7 +72,7 @@ class RequestController with ChangeNotifier {
           profileUserId: profileUserId);
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error areFriends');
       }
     }
     return areFriends;
@@ -88,7 +88,7 @@ class RequestController with ChangeNotifier {
       notifyListeners();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error acceptOrRejectRequest');
       }
     }
   }

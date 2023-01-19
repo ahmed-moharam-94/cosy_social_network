@@ -29,7 +29,7 @@ class CommentController with ChangeNotifier {
       await commentsWebServices.addCommentIdToUser(commentId);
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error sendComment');
       }
     }
   }
@@ -45,7 +45,7 @@ class CommentController with ChangeNotifier {
       notifyListeners();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getPostCommentsExceptUsersComment');
       }
     }
   }
@@ -62,32 +62,18 @@ class CommentController with ChangeNotifier {
       notifyListeners();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getUserComments');
       }
     }
   }
 
-  bool isMyComment(String userId) {
-    return userId == FirebaseAuth.instance.currentUser!.uid;
-  }
-
-  Future<int> getUserNumberOfCommentsInPost(String postId) async {
-    try {
-      return commentsWebServices.getUserNumberOfCommentsInPost(postId);
-    } catch (error) {
-      if (kDebugMode) {
-        print(error);
-      }
-      return 0;
-    }
-  }
 
   Future<int> getNumberOfComments(String postId) async {
     try {
       return await commentsWebServices.getNumberOfComments(postId);
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getNumberOfComments');
       }
       return 0;
     }

@@ -266,12 +266,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "flutter_rating_bar",
-      "rootUri": "file:///Users/ahmedmoharam/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_rating_bar-4.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
       "name": "flutter_svg",
       "rootUri": "file:///Users/ahmedmoharam/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_svg-1.1.6",
       "packageUri": "lib/",
@@ -626,7 +620,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2023-01-18T21:04:31.104173Z",
+  "generated": "2023-01-19T17:18:51.037130Z",
   "generator": "pub",
   "generatorVersion": "2.18.4"
 }

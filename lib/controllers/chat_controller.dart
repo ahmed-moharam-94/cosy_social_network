@@ -27,7 +27,7 @@ class ChatController with ChangeNotifier {
           receiverId: chat.secondUserId);
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error createChat');
       }
     }
   }
@@ -49,7 +49,7 @@ class ChatController with ChangeNotifier {
       notifyListeners();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getChats');
       }
     }
   }
@@ -60,7 +60,7 @@ class ChatController with ChangeNotifier {
       isFirstUser = await chatWebServices.isCurrentUserFirstUser(chatId);
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error isFirstUserId');
       }
     }
     return isFirstUser;

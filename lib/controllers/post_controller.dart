@@ -45,12 +45,10 @@ class PostController with ChangeNotifier {
         allPosts.add(post);
       }).toList();
       _allPosts = allPosts;
-      // shuffle posts to get random posts
-      _allPosts.shuffle();
       notifyListeners();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getAllPosts');
       }
     }
   }
@@ -69,7 +67,7 @@ class PostController with ChangeNotifier {
       notifyListeners();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getSpecificUserPosts');
       }
     }
   }
@@ -88,7 +86,7 @@ class PostController with ChangeNotifier {
       // reset imageFile
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error createAndUpdateMyPost');
       }
     }
     resetImageFileToNull();
@@ -107,7 +105,7 @@ class PostController with ChangeNotifier {
       }
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error deletePost');
       }
     }
   }
@@ -122,7 +120,7 @@ class PostController with ChangeNotifier {
       return await postWebService.getUserPostsNumber(userId);
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getUserPostsNumber');
       }
       return 0;
     }

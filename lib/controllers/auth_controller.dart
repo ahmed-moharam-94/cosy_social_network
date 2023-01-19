@@ -8,6 +8,7 @@ class AuthController with ChangeNotifier {
   AuthController(this.authWebServices);
 
   int _sentOtp = 0000;
+
   int get sentOtp {
     return _sentOtp;
   }
@@ -17,7 +18,7 @@ class AuthController with ChangeNotifier {
       await authWebServices.sendOtp(email);
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error sendOtp');
       }
     }
   }
@@ -29,7 +30,7 @@ class AuthController with ChangeNotifier {
       notifyListeners();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getOtp');
       }
     }
   }
@@ -39,7 +40,7 @@ class AuthController with ChangeNotifier {
       await authWebServices.verifyEmail();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error verifyEmail');
       }
     }
   }
@@ -67,7 +68,6 @@ class AuthController with ChangeNotifier {
     }
   }
 
-
   Future<void> signInWithEmailAndPassword(String email, String password) async {
     try {
       await authWebServices.signInWithEmailAndPassword(email, password);
@@ -79,7 +79,7 @@ class AuthController with ChangeNotifier {
       rethrow;
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error signInWithEmailAndPassword');
       }
       rethrow;
     }
@@ -91,7 +91,7 @@ class AuthController with ChangeNotifier {
       return true;
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error signInWithFacebook');
       }
       rethrow;
     }
@@ -103,7 +103,7 @@ class AuthController with ChangeNotifier {
       await authWebServices.registerWithEmailAndPassword(email, password);
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error registerWithEmailAndPassword');
       }
       rethrow;
     }
@@ -112,14 +112,11 @@ class AuthController with ChangeNotifier {
   Future<void> signOut() async {
     try {
       await authWebServices.signOut();
-    }  catch (error) {
+    } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error signOut');
       }
       rethrow;
     }
   }
-
-
-
 }

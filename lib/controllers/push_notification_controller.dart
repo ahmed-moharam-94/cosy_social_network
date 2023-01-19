@@ -22,7 +22,7 @@ class PushNotificationController with ChangeNotifier {
       notifyListeners();
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error getReceiverDeviceToken');
       }
     }
   }
@@ -42,7 +42,7 @@ class PushNotificationController with ChangeNotifier {
       }
     } catch (error) {
       if (kDebugMode) {
-        print(error);
+        print('$error sendPushNotification');
       }
     }
   }
