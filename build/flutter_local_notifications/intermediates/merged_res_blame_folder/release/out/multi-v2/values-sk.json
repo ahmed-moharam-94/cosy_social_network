@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_res/release/values-sk/values-sk.xml",
+            "map": [
+                {
+                    "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/incremental/mergeReleaseResources/merged.dir/values-sk/values-sk.xml",
+            "map": [
+                {
+                    "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

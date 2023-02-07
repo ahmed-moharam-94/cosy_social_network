@@ -1,6 +1,7 @@
 import 'package:cozy_social_media_app/controllers/auth_controller.dart';
 import 'package:cozy_social_media_app/controllers/topic_controller.dart';
 import 'package:cozy_social_media_app/controllers/user_controller.dart';
+import 'package:cozy_social_media_app/helpers/dynamic_link_service.dart';
 import 'package:cozy_social_media_app/views/screens/favorites_screen.dart';
 import 'package:cozy_social_media_app/views/screens/my_posts_screen.dart';
 import 'package:cozy_social_media_app/views/screens/requests_screen.dart';
@@ -56,29 +57,18 @@ class _MainScreenState extends State<MainScreen> {
     });
   }
 
-  Future<void> notificationStarTheApp() async {
-    var details =
-        await flutterLocalNotificationsPlugin.getNotificationAppLaunchDetails();
-
-    if (details != null) {
-      if (details.didNotificationLaunchApp) {
-        setState(() {
-          _screenIndex = 2;
-        });
-      }
-    }
-  }
 
   @override
   void initState() {
+    super.initState();
     NotificationService().requestFCMPermissions();
     NotificationService().initNotification(
         flutterLocalNotificationsPlugin, onDidReceiveNotificationResponse);
     handleNotificationInForeground();
     handleNotificationInBackground();
     handleNotificationInTerminated();
+    initDynamicLink();
     getInitialData();
-    super.initState();
   }
 
   // handle notifications
@@ -150,6 +140,10 @@ class _MainScreenState extends State<MainScreen> {
     }
   }
 
+  Future<void> initDynamicLink() async {
+    await DynamicLinkService.initDynamicLink(context);
+  }
+
   Future<void> getInitialData() async {
     setLoadingValue(true);
     // get the existing user data
@@ -186,6 +180,8 @@ class _MainScreenState extends State<MainScreen> {
   Future<void> getUserData() async {
     await Provider.of<UserController>(context, listen: false).getCurrentUserData();
   }
+
+
 
   @override
   void didChangeDependencies() {

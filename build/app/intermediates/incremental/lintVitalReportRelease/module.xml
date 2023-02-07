@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/ahmedmoharam/my_github/cozy_social_network/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.1.3"
+    buildFolder="/Users/ahmedmoharam/my_github/cozy_social_network/build/app"
+    bootClassPath="/Users/ahmedmoharam/Library/Android/sdk/platforms/android-33/android.jar:/Users/ahmedmoharam/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

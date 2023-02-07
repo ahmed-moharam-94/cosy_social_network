@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/smart_auth/intermediates/merged_res/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/10a592aef4c450bcf18938b1a3b63dc5/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/smart_auth/intermediates/merged_res/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/10a592aef4c450bcf18938b1a3b63dc5/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/smart_auth/intermediates/merged_res/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/10a592aef4c450bcf18938b1a3b63dc5/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    }
+]

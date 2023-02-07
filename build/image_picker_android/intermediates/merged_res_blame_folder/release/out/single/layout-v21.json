@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/aa2aa77d3005e47f0c5984337b182cd1/transformed/core-1.8.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/aa2aa77d3005e47f0c5984337b182cd1/transformed/core-1.8.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/aa2aa77d3005e47f0c5984337b182cd1/transformed/core-1.8.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/aa2aa77d3005e47f0c5984337b182cd1/transformed/core-1.8.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

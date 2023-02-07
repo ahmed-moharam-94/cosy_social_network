@@ -6,19 +6,19 @@ like posts, send friend requests and chat with other users.
 ## Features:
 
 ```
-1. Authentication using Email and password or using Facebook.
-2. Send otp code to the email if the user choose to register with email.
-3. Create your profile.
-3. Resend the otp code if the user did't receive the otp code;
-4. Write posts about specific topics (12 topics: Arts, Series, Movies, Music, Education, Economy, Politics, Food, Series, Spors, Travel and Technology).
-5. Select your experience if it's positive or negative.
-6. Upload images to posts, chat messages or as a user avatar or user cover image.
-7. Like and comment on posts.
-8. Send friend requests to other users.
-9. Send messages to other users.
-9. Get push notifications when another user send you a new friend request or a new message.
-10. Clicking on the notification will navigate the app to a specific screen depeneds on the type of the notification whether it is a friend request or a message.
-11. Custom loading shimmers for posts, requests and chats loading.
+1. Create an account with Email & Password or with Facebook authentication.
+2. Send otp code as for user email to verify his email.
+3. A deep link also is sent to the user so he can open the app directly from his browser or email client application.
+4. Create and update your profile with name, gender ,bio, avatar and cover images. 
+5. Write and manage (edit or delete) your posts about specific topics and tell your experience with it whether positive or negative in your posts screen.
+6. Like and comment on other users' posts (Report and Block will be implemented soon) with current user comments will always appear on the top of others comments..
+7. Users can accept or reject friend requests, and if they accept a request he will be able to chat with the request sender on 1 to 1 chat.
+8. Chat messages will invoke a push notification that will be delivered to the other user on the chat which if clicked will navigate the user to the chat screen.
+9. Every chat will show the last message between users.
+10. The application will store user devices' tokens so if he logged in many devices the notification will be sent to all of his devices.
+11. Sending friend requests or chat messages will invoke push notifications to all user devices.
+12. Different types of notifications will open different screens once clicked depending on if the notification is a friend request or a chat message.
+13. Custom loading shimmers for posts, requests and chats.
 ```
 
 ## This is app built using:
@@ -28,10 +28,10 @@ like posts, send friend requests and chat with other users.
 2. Provider as a state management solution.
 3. Firestore Database.
 4. Firebase Authentication.
-5. Facebook Authentication.
+5. Firebase Storage to upload images.
 6. Firebase Messaging for push notifications.
-7. Local notification to display notificaitons.
-8. Firebase Storage to upload images.
+7. Firebase dynamic links.
+8. Local notification to display notificaitons.
 9. Mailer package to send emails.
 10. Photo view package to zoom/show image content.
 ```

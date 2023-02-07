@@ -1,18 +1,64 @@
 {
   "project_info": {
     "project_number": "379160899910",
+    "firebase_url": "https://zaghroota-9cfe2-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "zaghroota-9cfe2",
     "storage_bucket": "zaghroota-9cfe2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:379160899910:android:8ab39cf5b47d05e3b53547",
+        "mobilesdk_app_id": "1:379160899910:android:c830b1f84b7cd830b53547",
         "android_client_info": {
           "package_name": "com.cozy_social_media"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "379160899910-f9206ted634ghcqq8o142cguvgi3iar2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cozy_social_media",
+            "certificate_hash": "7118fc1fd2e6839f208dba717133d8cff90a2799"
+          }
+        },
+        {
+          "client_id": "379160899910-62o4o01tll6h7penojdj4pe93u97lj1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzrUTwhMDfrbhfp9kKlrzBhBRwgui8kSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379160899910-62o4o01tll6h7penojdj4pe93u97lj1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379160899910:android:8ab39cf5b47d05e3b53547",
+        "android_client_info": {
+          "package_name": "com.example.marriage_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379160899910-lr5o9e86kfvadbk90m5oq710q73agu25.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marriage_app",
+            "certificate_hash": "9c2bfad51d9060790e26baafa1fae7e10b384d21"
+          }
+        },
         {
           "client_id": "379160899910-62o4o01tll6h7penojdj4pe93u97lj1j.apps.googleusercontent.com",
           "client_type": 3

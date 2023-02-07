@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_res/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_res/release/layout/browser_actions_context_menu_row.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/b56f37869f121c76c44455ca2cc12f58/transformed/browser-1.4.0/res/layout/browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_res/release/layout/notification_action.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_res/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_res/release/layout/browser_actions_context_menu_page.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/b56f37869f121c76c44455ca2cc12f58/transformed/browser-1.4.0/res/layout/browser_actions_context_menu_page.xml"
+    }
+]

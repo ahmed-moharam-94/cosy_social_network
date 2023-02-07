@@ -1,0 +1,7 @@
+#Tue Feb 07 12:21:42 EET 2023
+base.0=/Users/ahmedmoharam/my_github/cozy_social_network/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+base.1=/Users/ahmedmoharam/my_github/cozy_social_network/build/app/intermediates/desugar_lib_dex/release/classes1000.dex
+path.0=classes.dex
+path.1=classes1000.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

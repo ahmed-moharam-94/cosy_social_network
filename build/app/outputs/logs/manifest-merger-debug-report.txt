@@ -1,8 +1,10 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:7:5-75:19
+INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:7:5-85:19
 MERGED from [:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:19
 MERGED from [:firebase_auth] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_storage] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
@@ -37,6 +39,8 @@ MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ahmedmoharam/.gradl
 MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/99908c971392a9f7503133edac2722c4/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8988753a330affd1d42f848a90b1cad9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:15:5-23:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8988753a330affd1d42f848a90b1cad9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:22:5-30:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5c468dd7c80a4af696d14b20ad93f03b/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5c468dd7c80a4af696d14b20ad93f03b/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/cc254cd22756c38839e9006fcde3846d/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
@@ -65,6 +69,8 @@ MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/ahmedmohara
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8e6d45118cade5841e44f90abbc3d1e9/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/31309b48f67f0acd99e3f4e0b03f285a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/31309b48f67f0acd99e3f4e0b03f285a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/497eccc18144fd6e65a8aa445176af27/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/497eccc18144fd6e65a8aa445176af27/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/04b0f15dedf31594bb2976cc8f9915b1/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
@@ -73,8 +79,6 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/40c37df6887fdf0ea67156d215a1c114/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/ahmedmoharam/.gradle/caches/transforms-3/58796cc5c67c2f0abb8d02a9b901563b/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/ahmedmoharam/.gradle/caches/transforms-3/58796cc5c67c2f0abb8d02a9b901563b/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/497eccc18144fd6e65a8aa445176af27/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/497eccc18144fd6e65a8aa445176af27/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/a8b599fe9c6943c9ccf9bc0b3ed283c0/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/a8b599fe9c6943c9ccf9bc0b3ed283c0/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5f480593c840aa6dc5737ecee0875f7d/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
@@ -89,8 +93,8 @@ MERGED from [androidx.core:core:1.8.0] /Users/ahmedmoharam/.gradle/caches/transf
 MERGED from [androidx.core:core:1.8.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aa2aa77d3005e47f0c5984337b182cd1/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/842aaa4257a84dd8602537b7953c1146/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/842aaa4257a84dd8602537b7953c1146/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/b70efc5253ff88f41514db6d33dc791e/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/b70efc5253ff88f41514db6d33dc791e/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7c734e47eeac285023394b98531d48a2/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7c734e47eeac285023394b98531d48a2/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aa2aa77d3005e47f0c5984337b182cd1/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
@@ -98,12 +102,13 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmohara
 	android:name
 		INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-87:12
-INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-87:12
-INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-87:12
-INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-87:12
-MERGED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-87:12
+ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-97:12
+INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-97:12
+INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-97:12
+INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-97:12
+MERGED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-97:12
 MERGED from [:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
 MERGED from [:firebase_auth] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_storage] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-50:12
@@ -128,6 +133,7 @@ MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/ahmedmoharam/
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
 MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/99908c971392a9f7503133edac2722c4/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8988753a330affd1d42f848a90b1cad9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:15:1-32:12
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5c468dd7c80a4af696d14b20ad93f03b/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/cc254cd22756c38839e9006fcde3846d/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/dc92485004157b801569ddfb69fb813d/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
@@ -149,11 +155,11 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8e6d45118cade5841e44f90abbc3d1e9/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5356e4889939516e770c186794f8e108/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/31309b48f67f0acd99e3f4e0b03f285a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/497eccc18144fd6e65a8aa445176af27/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/04b0f15dedf31594bb2976cc8f9915b1/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/40c37df6887fdf0ea67156d215a1c114/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/ahmedmoharam/.gradle/caches/transforms-3/58796cc5c67c2f0abb8d02a9b901563b/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/497eccc18144fd6e65a8aa445176af27/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/a8b599fe9c6943c9ccf9bc0b3ed283c0/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/daf7930c8a480a4d7e212d937b4a2dcf/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5f480593c840aa6dc5737ecee0875f7d/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:2:1-9:12
@@ -200,7 +206,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/ahmedmoharam/.
 MERGED from [io.grpc:grpc-android:1.48.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/1f20bf20227152c5326d8af54038a62d/transformed/jetified-grpc-android-1.48.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/983d31d784781dcbbb3fef5d451967c0/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/9e9db293de81c0711571edee57e994a1/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/b70efc5253ff88f41514db6d33dc791e/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7c734e47eeac285023394b98531d48a2/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
 INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -210,11 +216,11 @@ INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/
 		INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-87:12
+		ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-97:12
 		INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-87:12
+		ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:1-97:12
 		INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -222,8 +228,10 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:4:5-67
 MERGED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:4:5-67
 MERGED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:77:5-67
-MERGED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:77:5-67
+MERGED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:87:5-67
+MERGED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:87:5-67
+MERGED from [:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/4ff273f6c540475873a52ee6695716ab/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
@@ -251,25 +259,27 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /U
 	android:name
 		ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:4:22-64
 queries
-ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:80:5-85:15
+ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:90:5-95:15
 MERGED from [com.facebook.android:facebook-common:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/0e306540b21fef51060eccd5dcac4b09/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:29:5-31:15
 MERGED from [com.facebook.android:facebook-common:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/0e306540b21fef51060eccd5dcac4b09/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:29:5-31:15
 intent#action:name:android.intent.action.SENDTO+data:scheme:mailto
-ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:81:9-84:18
+ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:91:9-94:18
 action#android.intent.action.SENDTO
-ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:82:13-67
+ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:92:13-67
 	android:name
-		ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:82:21-64
+		ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:92:21-64
 data
-ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:83:13-45
+ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:93:13-45
 	android:scheme
-		ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:83:19-42
+		ADDED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:93:19-42
 uses-sdk
 INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml
 MERGED from [:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_auth] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_auth] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_storage] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -318,6 +328,8 @@ MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ahmedmoharam/.gradl
 MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/99908c971392a9f7503133edac2722c4/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8988753a330affd1d42f848a90b1cad9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8988753a330affd1d42f848a90b1cad9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5c468dd7c80a4af696d14b20ad93f03b/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5c468dd7c80a4af696d14b20ad93f03b/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/cc254cd22756c38839e9006fcde3846d/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
@@ -360,6 +372,8 @@ MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/a
 MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5356e4889939516e770c186794f8e108/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/31309b48f67f0acd99e3f4e0b03f285a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/31309b48f67f0acd99e3f4e0b03f285a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/497eccc18144fd6e65a8aa445176af27/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/497eccc18144fd6e65a8aa445176af27/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/04b0f15dedf31594bb2976cc8f9915b1/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
@@ -368,8 +382,6 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/40c37df6887fdf0ea67156d215a1c114/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/ahmedmoharam/.gradle/caches/transforms-3/58796cc5c67c2f0abb8d02a9b901563b/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/ahmedmoharam/.gradle/caches/transforms-3/58796cc5c67c2f0abb8d02a9b901563b/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/497eccc18144fd6e65a8aa445176af27/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/497eccc18144fd6e65a8aa445176af27/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/a8b599fe9c6943c9ccf9bc0b3ed283c0/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/a8b599fe9c6943c9ccf9bc0b3ed283c0/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/daf7930c8a480a4d7e212d937b4a2dcf/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
@@ -462,8 +474,8 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/ahmed
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/983d31d784781dcbbb3fef5d451967c0/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/9e9db293de81c0711571edee57e994a1/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/9e9db293de81c0711571edee57e994a1/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/b70efc5253ff88f41514db6d33dc791e/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/b70efc5253ff88f41514db6d33dc791e/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7c734e47eeac285023394b98531d48a2/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7c734e47eeac285023394b98531d48a2/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -474,6 +486,8 @@ INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/
 		INJECTED from /Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/debug/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:19
 MERGED from [:firebase_auth] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_auth] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_storage] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
@@ -496,6 +510,8 @@ MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ahmedmoharam/.gradl
 MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/99908c971392a9f7503133edac2722c4/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8988753a330affd1d42f848a90b1cad9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:16:9-22:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8988753a330affd1d42f848a90b1cad9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:23:9-29:19
+MERGED from [com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:23:9-29:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5c468dd7c80a4af696d14b20ad93f03b/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5c468dd7c80a4af696d14b20ad93f03b/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7b97a8fd37614f25868034a275448e14/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
@@ -518,6 +534,12 @@ ADDED from [:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/
 		ADDED from [:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
 		ADDED from [:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.dynamiclinks.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-131
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
 ADDED from [:firebase_auth] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 	android:value
@@ -858,6 +880,12 @@ ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.
 		ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8988753a330affd1d42f848a90b1cad9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:21:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8988753a330affd1d42f848a90b1cad9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:20:17-111
+meta-data#com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar
+ADDED from [com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:26:13-28:85
+	android:value
+		ADDED from [com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:27:17-133
 meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
 ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5c468dd7c80a4af696d14b20ad93f03b/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
 	android:value
@@ -954,8 +982,8 @@ uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_S
 ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/40c37df6887fdf0ea67156d215a1c114/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/40c37df6887fdf0ea67156d215a1c114/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/b70efc5253ff88f41514db6d33dc791e/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/b70efc5253ff88f41514db6d33dc791e/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7c734e47eeac285023394b98531d48a2/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7c734e47eeac285023394b98531d48a2/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver

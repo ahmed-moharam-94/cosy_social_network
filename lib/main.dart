@@ -12,6 +12,7 @@ import 'package:cozy_social_media_app/web_services/topics_web_service.dart';
 import 'package:cozy_social_media_app/web_services/user_web_services.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/foundation.dart';
@@ -56,3 +57,6 @@ Future<void> main() async {
     deviceTokenWebServices: PushNotificationWebServices(_firestore),
   ));
 }
+
+
+

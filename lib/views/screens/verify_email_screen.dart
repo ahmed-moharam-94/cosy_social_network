@@ -1,5 +1,7 @@
+import 'package:cozy_social_media_app/views/screens/user_profile_screen.dart';
 import 'package:cozy_social_media_app/views/widgets/reusable_widgets/circular_loading_indicator_widget.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../controllers/auth_controller.dart';
@@ -17,6 +19,12 @@ class VerifyEmailScreen extends StatefulWidget {
 
 class _VerifyEmailScreenState extends State<VerifyEmailScreen> {
   bool isLoading = false;
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
 
   void displayErrorSnackBar(error, BuildContext context) {
     ScaffoldMessenger.of(context)

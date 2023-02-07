@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_screen_content_include.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_select_dialog_material.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_template_lines_media.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/d34020161b37376005739369a24d81b5/transformed/media-1.0.0/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/com_facebook_tooltip_bubble.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/e6891cc39e767aeebf7a4d21c0dd5033/transformed/jetified-facebook-login-14.1.1/res/layout/com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_screen_toolbar.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/d34020161b37376005739369a24d81b5/transformed/media-1.0.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_tooltip.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_tooltip.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/com_facebook_device_auth_dialog_fragment.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/0e306540b21fef51060eccd5dcac4b09/transformed/jetified-facebook-common-14.1.1/res/layout/com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/d34020161b37376005739369a24d81b5/transformed/media-1.0.0/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_dialog_title_material.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_media_action.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/d34020161b37376005739369a24d81b5/transformed/media-1.0.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/com_facebook_smart_device_dialog_fragment.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/0e306540b21fef51060eccd5dcac4b09/transformed/jetified-facebook-common-14.1.1/res/layout/com_facebook_smart_device_dialog_fragment.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/browser_actions_context_menu_row.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/eb08097e94309aa07c1da62af60679f7/transformed/browser-1.0.0/res/layout/browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_cascading_menu_item_layout.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/browser_actions_context_menu_page.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/eb08097e94309aa07c1da62af60679f7/transformed/browser-1.0.0/res/layout/browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/select_dialog_item_material.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_action.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/com_facebook_login_fragment.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/0e306540b21fef51060eccd5dcac4b09/transformed/jetified-facebook-common-14.1.1/res/layout/com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/com_facebook_activity_layout.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/0e306540b21fef51060eccd5dcac4b09/transformed/jetified-facebook-common-14.1.1/res/layout/com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_template_media_custom.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/d34020161b37376005739369a24d81b5/transformed/media-1.0.0/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_screen_simple.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_template_media.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/d34020161b37376005739369a24d81b5/transformed/media-1.0.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_media_cancel_action.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/d34020161b37376005739369a24d81b5/transformed/media-1.0.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_action_mode_bar.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/8abb50d9915ae0b65077558bbed1eca3/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_action_menu_layout.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/d34020161b37376005739369a24d81b5/transformed/media-1.0.0/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_search_view.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/bd3e3776c257022d6dabbfc70964fceb/transformed/appcompat-1.1.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_facebook_auth/intermediates/merged_res/release/layout/notification_template_big_media.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/d34020161b37376005739369a24d81b5/transformed/media-1.0.0/res/layout/notification_template_big_media.xml"
+    }
+]

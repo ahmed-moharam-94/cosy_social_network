@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/aa2aa77d3005e47f0c5984337b182cd1/transformed/core-1.8.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/aa2aa77d3005e47f0c5984337b182cd1/transformed/core-1.8.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/aa2aa77d3005e47f0c5984337b182cd1/transformed/core-1.8.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/ahmedmoharam/.gradle/caches/transforms-3/aa2aa77d3005e47f0c5984337b182cd1/transformed/core-1.8.0/res/drawable/notification_bg.xml"
+    }
+]

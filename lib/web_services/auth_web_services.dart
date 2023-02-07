@@ -7,6 +7,7 @@ import 'package:mailer/mailer.dart';
 import 'package:mailer/smtp_server/gmail.dart';
 
 import '../constants/strings.dart';
+import '../helpers/dynamic_link_service.dart';
 
 class AuthWebServices {
   final FirebaseAuth firebaseAuth;
@@ -35,6 +36,9 @@ class AuthWebServices {
         'isVerified': false,
       });
 
+
+      // create dynamic link
+      final dynamicLink = await DynamicLinkService.createDynamicLink();
       final smtpServer =
           gmail(applicationEmail, gmailApplicationPassword);
       final message = Message()
@@ -43,8 +47,10 @@ class AuthWebServices {
         ..recipients.add(emailAddress)
         ..subject = 'Verification Code'
         ..html = """
-                <h3>Your verification code is \n $otp</h3>
+                <h2>Your verification code is \n $otp</h2>
+                <h3>Open the app: \n $dynamicLink</h3>
               """;
+
 
       await send(message, smtpServer);
     } catch (error) {
@@ -61,7 +67,6 @@ class AuthWebServices {
       if (userSnapshot.data() != null && userSnapshot.data()!['otp'] != null) {
         otp = userSnapshot.data()!['otp'];
       }
-      print(otp);
       return otp;
     } catch (error) {
       rethrow;

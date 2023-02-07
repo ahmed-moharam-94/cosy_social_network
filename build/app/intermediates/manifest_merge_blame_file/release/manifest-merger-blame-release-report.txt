@@ -1,0 +1,766 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cozy_social_media"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:4:22-64
+13
+14    <!-- for sending email -->
+15    <queries>
+15-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:109:5-114:15
+16        <intent>
+16-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:110:9-113:18
+17            <action android:name="android.intent.action.SENDTO" />
+17-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:111:13-67
+17-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:111:21-64
+18
+19            <data android:scheme="mailto" />
+19-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:13-45
+19-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:19-42
+20        </intent>
+21
+22        <package android:name="com.facebook.katana" />
+22-->[com.facebook.android:facebook-common:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/0e306540b21fef51060eccd5dcac4b09/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:30:9-55
+22-->[com.facebook.android:facebook-common:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/0e306540b21fef51060eccd5dcac4b09/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:30:18-52
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+25-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+26-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+26-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+27    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+27-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+27-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+28-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+29-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+30    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+30-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+30-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+31    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+31-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+31-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+32    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+32-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:28:5-82
+32-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:28:22-79
+33    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+33-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7b97a8fd37614f25868034a275448e14/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+33-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7b97a8fd37614f25868034a275448e14/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+34    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+34-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+34-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+35
+36    <application
+37        android:name="android.app.Application"
+37-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:8:9-42
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.8.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aa2aa77d3005e47f0c5984337b182cd1/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:9:9-43
+40        android:label="cozy_social_media"
+40-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:10:9-42
+41        android:supportsRtl="true" >
+41-->[com.facebook.android:facebook-login:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/e6891cc39e767aeebf7a4d21c0dd5033/transformed/jetified-facebook-login-14.1.1/AndroidManifest.xml:28:18-44
+42        <activity
+42-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:11:9-64:20
+43            android:name="com.cozy_social_media.MainActivity"
+43-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:12:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:13:13-163
+45            android:exported="true"
+45-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:14:13-36
+46            android:hardwareAccelerated="true"
+46-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:15:13-47
+47            android:launchMode="singleTop"
+47-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:16:13-43
+48            android:theme="@style/LaunchTheme"
+48-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:17:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:18:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57
+58            <intent-filter>
+58-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:24:13-27:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:25:17-69
+59-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:25:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:26:17-77
+61-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:26:27-74
+62            </intent-filter>
+63            <intent-filter>
+63-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:28:13-31:29
+64                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+64-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:29:17-69
+64-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:29:25-66
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:17-76
+66-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:27-73
+67            </intent-filter>
+68            <intent-filter>
+68-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:32:13-34:29
+69                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+69-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:33:17-78
+69-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:33:25-75
+70            </intent-filter>
+71
+72            <!-- Deep linking in them mainActivity tag -->
+73            <meta-data
+73-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:37:13-39:40
+74                android:name="flutter_deeplinking_enabled"
+74-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:38:17-59
+75                android:value="true" />
+75-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:39:17-37
+76
+77            <intent-filter android:autoVerify="true" >
+77-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:41:13-50:29
+77-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:41:28-53
+78                <action android:name="android.intent.action.VIEW" />
+78-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:42:17-69
+78-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:42:25-66
+79
+80                <category android:name="android.intent.category.DEFAULT" />
+80-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:17-76
+80-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:27-73
+81                <category android:name="android.intent.category.BROWSABLE" />
+81-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:44:17-78
+81-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:44:27-75
+82                <!-- add host name -->
+83                <data
+83-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:13-45
+84                    android:host="cozy.page.link"
+84-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:47:21-50
+85                    android:scheme="http" />
+85-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:19-42
+86                <data android:scheme="https" />
+86-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:13-45
+86-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:19-42
+87            </intent-filter>
+88            <intent-filter>
+88-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:52:13-61:29
+89                <action android:name="android.intent.action.VIEW" />
+89-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:42:17-69
+89-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:42:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:17-76
+91-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:27-73
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:44:17-78
+92-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:44:27-75
+93
+94                <data
+94-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:13-45
+95                    android:host="cozy.page.link"
+95-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:47:21-50
+96                    android:scheme="https" />
+96-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:19-42
+97            </intent-filter>
+98        </activity>
+99
+100        <meta-data
+100-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:66:9-68:50
+101            android:name="com.google.firebase.messaging.default_notification_channel_id"
+101-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:67:13-89
+102            android:value="channel_id_1121212" />
+102-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:68:13-47
+103
+104        <!--
+105             Don't delete the meta-data below.
+106             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+107        -->
+108        <meta-data
+108-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:72:9-74:33
+109            android:name="flutterEmbedding"
+109-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:73:13-44
+110            android:value="2" />
+110-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:74:13-30
+111        <meta-data
+111-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:76:9-78:53
+112            android:name="io.flutter.embedding.android.NormalTheme"
+112-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:77:13-68
+113            android:resource="@style/NormalTheme" />
+113-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:78:13-50
+114        <meta-data
+114-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:79:9-81:55
+115            android:name="com.facebook.sdk.ApplicationId"
+115-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:80:13-58
+116            android:value="@string/facebook_app_id" />
+116-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:81:13-52
+117        <meta-data
+117-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:82:9-84:61
+118            android:name="com.facebook.sdk.ClientToken"
+118-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:83:13-56
+119            android:value="@string/facebook_client_token" />
+119-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:84:13-58
+120
+121        <activity
+121-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:86:9-89:48
+122            android:name="com.facebook.FacebookActivity"
+122-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:87:13-57
+123            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+123-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:88:13-96
+124            android:label="@string/app_name"
+124-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:89:13-45
+125            android:theme="@style/com_facebook_activity_theme" />
+125-->[com.facebook.android:facebook-common:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/0e306540b21fef51060eccd5dcac4b09/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:37:13-63
+126        <activity
+126-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:90:9-102:20
+127            android:name="com.facebook.CustomTabActivity"
+127-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:91:13-58
+128            android:exported="true" >
+128-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:92:13-36
+129            <intent-filter>
+129-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:93:13-100:29
+130                <action android:name="android.intent.action.VIEW" />
+130-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:42:17-69
+130-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:42:25-66
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:17-76
+132-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:27-73
+133                <category android:name="android.intent.category.BROWSABLE" />
+133-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:44:17-78
+133-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:44:27-75
+134
+135                <data android:scheme="@string/fb_login_protocol_scheme" />
+135-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:13-45
+135-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:19-42
+136            </intent-filter>
+137            <intent-filter>
+137-->[com.facebook.android:facebook-common:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/0e306540b21fef51060eccd5dcac4b09/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:43:13-52:29
+138                <action android:name="android.intent.action.VIEW" />
+138-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:42:17-69
+138-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:42:25-66
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:17-76
+140-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:27-73
+141                <category android:name="android.intent.category.BROWSABLE" />
+141-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:44:17-78
+141-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:44:27-75
+142
+143                <data
+143-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:13-45
+144                    android:host="cct.com.cozy_social_media"
+144-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:47:21-50
+145                    android:scheme="fbconnect" />
+145-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:19-42
+146            </intent-filter>
+147        </activity>
+148
+149        <service
+149-->[:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+150            android:name="com.google.firebase.components.ComponentDiscoveryService"
+150-->[:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+151            android:directBootAware="true"
+151-->[com.google.firebase:firebase-common:20.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/ca61abe9f9d95fb12dd1565ca0c8d9b5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+152            android:exported="false" >
+152-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/fa5b1345842e1630f40233f847582c22/transformed/jetified-firebase-analytics-ktx-21.2.0/AndroidManifest.xml:10:13-37
+153            <meta-data
+153-->[:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+154                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+154-->[:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[:cloud_firestore] /Users/ahmedmoharam/my_github/cozy_social_network/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+156            <meta-data
+156-->[:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:85
+157                android:name="com.google.firebase.components:io.flutter.plugins.firebase.dynamiclinks.FlutterFirebaseAppRegistrar"
+157-->[:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-131
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[:firebase_dynamic_links] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_dynamic_links/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-82
+159            <meta-data
+159-->[:firebase_auth] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+160                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+160-->[:firebase_auth] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[:firebase_auth] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+162            <meta-data
+162-->[:firebase_storage] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+163                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+163-->[:firebase_storage] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[:firebase_storage] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+165            <meta-data
+165-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+166                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+166-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+168            <meta-data
+168-->[:firebase_core] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+169                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+169-->[:firebase_core] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[:firebase_core] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+171            <meta-data
+171-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/fa5b1345842e1630f40233f847582c22/transformed/jetified-firebase-analytics-ktx-21.2.0/AndroidManifest.xml:11:13-13:85
+172                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+172-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/fa5b1345842e1630f40233f847582c22/transformed/jetified-firebase-analytics-ktx-21.2.0/AndroidManifest.xml:12:17-126
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/fa5b1345842e1630f40233f847582c22/transformed/jetified-firebase-analytics-ktx-21.2.0/AndroidManifest.xml:13:17-82
+174            <meta-data
+174-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/d062cb6650acc3b8f6c8408cd353b834/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:14:13-16:85
+175                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+175-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/d062cb6650acc3b8f6c8408cd353b834/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:15:17-113
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/d062cb6650acc3b8f6c8408cd353b834/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:16:17-82
+177            <meta-data
+177-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:55:13-57:85
+178                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+178-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:56:17-119
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:57:17-82
+180            <meta-data
+180-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/ahmedmoharam/.gradle/caches/transforms-3/950feee75c059a455e65c0ac963f1ae3/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+181                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+181-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/ahmedmoharam/.gradle/caches/transforms-3/950feee75c059a455e65c0ac963f1ae3/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/ahmedmoharam/.gradle/caches/transforms-3/950feee75c059a455e65c0ac963f1ae3/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+183            <meta-data
+183-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+184                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+184-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+186            <meta-data
+186-->[com.google.firebase:firebase-iid:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/99908c971392a9f7503133edac2722c4/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+187                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+187-->[com.google.firebase:firebase-iid:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/99908c971392a9f7503133edac2722c4/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+188                android:value="com.google.firebase.components.ComponentRegistrar" />
+188-->[com.google.firebase:firebase-iid:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/99908c971392a9f7503133edac2722c4/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+189            <meta-data
+189-->[com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8988753a330affd1d42f848a90b1cad9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:19:13-21:85
+190                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+190-->[com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8988753a330affd1d42f848a90b1cad9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:20:17-111
+191                android:value="com.google.firebase.components.ComponentRegistrar" />
+191-->[com.google.firebase:firebase-firestore:24.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/8988753a330affd1d42f848a90b1cad9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:21:17-82
+192            <meta-data
+192-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:26:13-28:85
+193                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+193-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:27:17-133
+194                android:value="com.google.firebase.components.ComponentRegistrar" />
+194-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/aff57189d531f4b860e1ef9f99b41e6d/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:28:17-82
+195            <meta-data
+195-->[com.google.firebase:firebase-storage:20.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5c468dd7c80a4af696d14b20ad93f03b/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+196                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+196-->[com.google.firebase:firebase-storage:20.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5c468dd7c80a4af696d14b20ad93f03b/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+197                android:value="com.google.firebase.components.ComponentRegistrar" />
+197-->[com.google.firebase:firebase-storage:20.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5c468dd7c80a4af696d14b20ad93f03b/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+198            <meta-data
+198-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7b97a8fd37614f25868034a275448e14/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+199                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+199-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7b97a8fd37614f25868034a275448e14/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+200                android:value="com.google.firebase.components.ComponentRegistrar" />
+200-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/7b97a8fd37614f25868034a275448e14/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+201            <meta-data
+201-->[com.google.firebase:firebase-installations:17.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5a439423593a59c36bfaa37f49b88123/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+202                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+202-->[com.google.firebase:firebase-installations:17.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5a439423593a59c36bfaa37f49b88123/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+203                android:value="com.google.firebase.components.ComponentRegistrar" />
+203-->[com.google.firebase:firebase-installations:17.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/5a439423593a59c36bfaa37f49b88123/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+204        </service>
+205        <service
+205-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+206            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+206-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+207            android:exported="false"
+207-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+208            android:permission="android.permission.BIND_JOB_SERVICE" />
+208-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+209        <service
+209-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+210            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+210-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+211            android:exported="false" >
+211-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+212            <intent-filter>
+212-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:32:13-34:29
+213                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+213-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:33:17-78
+213-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:33:25-75
+214            </intent-filter>
+215        </service>
+216
+217        <receiver
+217-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+218            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+218-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+219            android:exported="true"
+219-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+220            android:permission="com.google.android.c2dm.permission.SEND" >
+220-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+221            <intent-filter>
+221-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+222                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+222-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+222-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+223            </intent-filter>
+224        </receiver>
+225
+226        <provider
+226-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+227            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+227-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+228            android:authorities="com.cozy_social_media.flutterfirebasemessaginginitprovider"
+228-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+229            android:exported="false"
+229-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+230            android:initOrder="99" />
+230-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+231        <provider
+231-->[:image_picker_android] /Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+232            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+232-->[:image_picker_android] /Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+233            android:authorities="com.cozy_social_media.flutter.image_provider"
+233-->[:image_picker_android] /Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+234            android:exported="false"
+234-->[:image_picker_android] /Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+235            android:grantUriPermissions="true" >
+235-->[:image_picker_android] /Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+236            <meta-data
+236-->[:image_picker_android] /Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+237                android:name="android.support.FILE_PROVIDER_PATHS"
+237-->[:image_picker_android] /Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+238                android:resource="@xml/flutter_image_picker_file_paths" />
+238-->[:image_picker_android] /Users/ahmedmoharam/my_github/cozy_social_network/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+239        </provider>
+240
+241        <receiver
+241-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+242            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+242-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+243            android:exported="false" />
+243-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+244        <receiver
+244-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+245            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+245-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+246            android:exported="false" />
+246-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+247        <receiver
+247-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+248            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+248-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+249            android:exported="false" >
+249-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+250            <intent-filter>
+250-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+251                <action android:name="android.intent.action.BOOT_COMPLETED" />
+251-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+251-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+252                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+252-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+252-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+253                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+253-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+253-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+254                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+254-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+254-->[:flutter_local_notifications] /Users/ahmedmoharam/my_github/cozy_social_network/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+255            </intent-filter>
+256        </receiver>
+257
+258        <uses-library
+258-->[androidx.window:window:1.0.0-beta04] /Users/ahmedmoharam/.gradle/caches/transforms-3/08bb7c7bfcf0b6f35b61cc8ec8555f6e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+259            android:name="androidx.window.extensions"
+259-->[androidx.window:window:1.0.0-beta04] /Users/ahmedmoharam/.gradle/caches/transforms-3/08bb7c7bfcf0b6f35b61cc8ec8555f6e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+260            android:required="false" />
+260-->[androidx.window:window:1.0.0-beta04] /Users/ahmedmoharam/.gradle/caches/transforms-3/08bb7c7bfcf0b6f35b61cc8ec8555f6e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+261        <uses-library
+261-->[androidx.window:window:1.0.0-beta04] /Users/ahmedmoharam/.gradle/caches/transforms-3/08bb7c7bfcf0b6f35b61cc8ec8555f6e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+262            android:name="androidx.window.sidecar"
+262-->[androidx.window:window:1.0.0-beta04] /Users/ahmedmoharam/.gradle/caches/transforms-3/08bb7c7bfcf0b6f35b61cc8ec8555f6e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+263            android:required="false" />
+263-->[androidx.window:window:1.0.0-beta04] /Users/ahmedmoharam/.gradle/caches/transforms-3/08bb7c7bfcf0b6f35b61cc8ec8555f6e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+264
+265        <receiver
+265-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:31:9-38:20
+266            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+266-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:32:13-78
+267            android:exported="true"
+267-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:33:13-36
+268            android:permission="com.google.android.c2dm.permission.SEND" >
+268-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:34:13-73
+269            <intent-filter>
+269-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+270                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+270-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+270-->[:firebase_messaging] /Users/ahmedmoharam/my_github/cozy_social_network/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+271            </intent-filter>
+272        </receiver>
+273        <!--
+274             FirebaseMessagingService performs security checks at runtime,
+275             but set to not exported to explicitly avoid allowing another app to call it.
+276        -->
+277        <service
+277-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:44:9-51:19
+278            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+278-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:45:13-82
+279            android:directBootAware="true"
+279-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:46:13-43
+280            android:exported="false" >
+280-->[com.google.firebase:firebase-messaging:23.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/27ccf3d3b29a4aaab4259baa14bedf33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:47:13-37
+281            <intent-filter android:priority="-500" >
+281-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:32:13-34:29
+282                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+282-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:33:17-78
+282-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:33:25-75
+283            </intent-filter>
+284        </service>
+285        <service
+285-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/4ff273f6c540475873a52ee6695716ab/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+286            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+286-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/4ff273f6c540475873a52ee6695716ab/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+287            android:exported="false" >
+287-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/4ff273f6c540475873a52ee6695716ab/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+288            <meta-data
+288-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/4ff273f6c540475873a52ee6695716ab/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+289                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+289-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/4ff273f6c540475873a52ee6695716ab/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+290                android:value="cct" />
+290-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/4ff273f6c540475873a52ee6695716ab/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+291        </service>
+292        <service
+292-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/655754c50c703ee3b90583121a1fba3f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+293            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+293-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/655754c50c703ee3b90583121a1fba3f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+294            android:exported="false"
+294-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/655754c50c703ee3b90583121a1fba3f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+295            android:permission="android.permission.BIND_JOB_SERVICE" >
+295-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/655754c50c703ee3b90583121a1fba3f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+296        </service>
+297
+298        <receiver
+298-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/655754c50c703ee3b90583121a1fba3f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+299            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+299-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/655754c50c703ee3b90583121a1fba3f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+300            android:exported="false" />
+300-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ahmedmoharam/.gradle/caches/transforms-3/655754c50c703ee3b90583121a1fba3f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+301
+302        <activity
+302-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+303            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+303-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+304            android:excludeFromRecents="true"
+304-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+305            android:exported="true"
+305-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+306            android:launchMode="singleTask"
+306-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+307            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+307-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+308            <intent-filter>
+308-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+309                <action android:name="android.intent.action.VIEW" />
+309-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:42:17-69
+309-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:42:25-66
+310
+311                <category android:name="android.intent.category.DEFAULT" />
+311-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:17-76
+311-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:27-73
+312                <category android:name="android.intent.category.BROWSABLE" />
+312-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:44:17-78
+312-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:44:27-75
+313
+314                <data
+314-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:13-45
+315                    android:host="firebase.auth"
+315-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:47:21-50
+316                    android:path="/"
+317                    android:scheme="genericidp" />
+317-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:19-42
+318            </intent-filter>
+319        </activity>
+320        <activity
+320-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+321            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+321-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+322            android:excludeFromRecents="true"
+322-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+323            android:exported="true"
+323-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+324            android:launchMode="singleTask"
+324-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+325            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+325-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+326            <intent-filter>
+326-->[com.google.firebase:firebase-auth:21.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/3ae2af1f25ab9cdd741e88459ebdceed/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+327                <action android:name="android.intent.action.VIEW" />
+327-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:42:17-69
+327-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:42:25-66
+328
+329                <category android:name="android.intent.category.DEFAULT" />
+329-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:17-76
+329-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:30:27-73
+330                <category android:name="android.intent.category.BROWSABLE" />
+330-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:44:17-78
+330-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:44:27-75
+331
+332                <data
+332-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:13-45
+333                    android:host="firebase.auth"
+333-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:47:21-50
+334                    android:path="/"
+335                    android:scheme="recaptcha" />
+335-->/Users/ahmedmoharam/my_github/cozy_social_network/android/app/src/main/AndroidManifest.xml:112:19-42
+336            </intent-filter>
+337        </activity>
+338
+339        <provider
+339-->[com.google.firebase:firebase-common:20.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/ca61abe9f9d95fb12dd1565ca0c8d9b5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+340            android:name="com.google.firebase.provider.FirebaseInitProvider"
+340-->[com.google.firebase:firebase-common:20.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/ca61abe9f9d95fb12dd1565ca0c8d9b5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+341            android:authorities="com.cozy_social_media.firebaseinitprovider"
+341-->[com.google.firebase:firebase-common:20.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/ca61abe9f9d95fb12dd1565ca0c8d9b5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+342            android:directBootAware="true"
+342-->[com.google.firebase:firebase-common:20.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/ca61abe9f9d95fb12dd1565ca0c8d9b5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+343            android:exported="false"
+343-->[com.google.firebase:firebase-common:20.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/ca61abe9f9d95fb12dd1565ca0c8d9b5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+344            android:initOrder="100" />
+344-->[com.google.firebase:firebase-common:20.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/ca61abe9f9d95fb12dd1565ca0c8d9b5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+345
+346        <activity android:name="com.facebook.CustomTabMainActivity" />
+346-->[com.facebook.android:facebook-common:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/0e306540b21fef51060eccd5dcac4b09/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:38:9-71
+346-->[com.facebook.android:facebook-common:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/0e306540b21fef51060eccd5dcac4b09/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:38:19-68
+347        <activity
+347-->[com.google.android.gms:play-services-auth:20.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/6dc3be040cf538e9dfe918d83f775570/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:23:9-27:75
+348            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+348-->[com.google.android.gms:play-services-auth:20.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/6dc3be040cf538e9dfe918d83f775570/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:24:13-93
+349            android:excludeFromRecents="true"
+349-->[com.google.android.gms:play-services-auth:20.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/6dc3be040cf538e9dfe918d83f775570/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:25:13-46
+350            android:exported="false"
+350-->[com.google.android.gms:play-services-auth:20.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/6dc3be040cf538e9dfe918d83f775570/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:26:13-37
+351            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+351-->[com.google.android.gms:play-services-auth:20.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/6dc3be040cf538e9dfe918d83f775570/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:27:13-72
+352        <!--
+353            Service handling Google Sign-In user revocation. For apps that do not integrate with
+354            Google Sign-In, this service will never be started.
+355        -->
+356        <service
+356-->[com.google.android.gms:play-services-auth:20.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/6dc3be040cf538e9dfe918d83f775570/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:33:9-37:51
+357            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+357-->[com.google.android.gms:play-services-auth:20.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/6dc3be040cf538e9dfe918d83f775570/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:34:13-89
+358            android:exported="true"
+358-->[com.google.android.gms:play-services-auth:20.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/6dc3be040cf538e9dfe918d83f775570/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:35:13-36
+359            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+359-->[com.google.android.gms:play-services-auth:20.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/6dc3be040cf538e9dfe918d83f775570/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:36:13-107
+360            android:visibleToInstantApps="true" />
+360-->[com.google.android.gms:play-services-auth:20.4.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/6dc3be040cf538e9dfe918d83f775570/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:37:13-48
+361
+362        <activity
+362-->[com.google.android.gms:play-services-base:18.0.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/10a592aef4c450bcf18938b1a3b63dc5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+363            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+363-->[com.google.android.gms:play-services-base:18.0.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/10a592aef4c450bcf18938b1a3b63dc5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+364            android:exported="false"
+364-->[com.google.android.gms:play-services-base:18.0.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/10a592aef4c450bcf18938b1a3b63dc5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+365            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+365-->[com.google.android.gms:play-services-base:18.0.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/10a592aef4c450bcf18938b1a3b63dc5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+366
+367        <receiver
+367-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+368            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+368-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+369            android:enabled="true"
+369-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+370            android:exported="false" >
+370-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+371        </receiver>
+372
+373        <service
+373-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+374            android:name="com.google.android.gms.measurement.AppMeasurementService"
+374-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+375            android:enabled="true"
+375-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+376            android:exported="false" />
+376-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+377        <service
+377-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+378            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+378-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+379            android:enabled="true"
+379-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+380            android:exported="false"
+380-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+381            android:permission="android.permission.BIND_JOB_SERVICE" />
+381-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/573ea076e7e51d500ff78f3ea4aec6e6/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+382
+383        <meta-data
+383-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/a869b51872c17e5186ebf0ccca652867/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+384            android:name="com.google.android.gms.version"
+384-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/a869b51872c17e5186ebf0ccca652867/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+385            android:value="@integer/google_play_services_version" />
+385-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ahmedmoharam/.gradle/caches/transforms-3/a869b51872c17e5186ebf0ccca652867/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+386        <!--
+387         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+388         with the application context. This config is merged in with the host app's manifest,
+389         but there can only be one provider with the same authority activated at any given
+390         point; so if the end user has two or more different apps that use Facebook SDK, only the
+391         first one will be able to use the provider. To work around this problem, we use the
+392         following placeholder in the authority to identify each host application as if it was
+393         a completely different provider.
+394        -->
+395        <provider
+395-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:41:9-44:40
+396            android:name="com.facebook.internal.FacebookInitProvider"
+396-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:42:13-70
+397            android:authorities="com.cozy_social_media.FacebookInitProvider"
+397-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:43:13-72
+398            android:exported="false" />
+398-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:44:13-37
+399
+400        <receiver
+400-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:46:9-52:20
+401            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+401-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:47:13-86
+402            android:exported="false" >
+402-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:48:13-37
+403            <intent-filter>
+403-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:49:13-51:29
+404                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+404-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:50:17-95
+404-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:50:25-92
+405            </intent-filter>
+406        </receiver>
+407        <receiver
+407-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:53:9-59:20
+408            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+408-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:54:13-118
+409            android:exported="false" >
+409-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:55:13-37
+410            <intent-filter>
+410-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:56:13-58:29
+411                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+411-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:57:17-103
+411-->[com.facebook.android:facebook-core:14.1.1] /Users/ahmedmoharam/.gradle/caches/transforms-3/8639cce34ba44936249d37ec1b394a30/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:57:25-100
+412            </intent-filter>
+413        </receiver>
+414    </application>
+415
+416</manifest>
